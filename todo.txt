@@ -1,0 +1,8 @@
+* Use separate threads for network IO
+  (to aviod locking up the app)
+
+* Use C2DM instead of polling the server
+  The current version is automatically stopped when you close the app
+
+* Create a Widget
+
